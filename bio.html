@@ -67,18 +67,25 @@
   <p>Au collège, en plus de ses centres d'intérêts peu communs, il fut moqué pour une infection respiratoire qu'il contracta brusquement, l'empêchant de se moucher sans faire un vacarme assourdissant. Alors, dans son profond désarroi, il entreprit d'apprendre le piano, ruinant une fois encore sa mère, obligée de payer son clavier et son application d'apprentissage. Il avait commencé durant le confinement, sur les conseils de son ami Étienne Râpe.</p>
   <h2>Citations</h2>
   <blockquote>"Il pleut des feuilles."</blockquote>
-  <cite>Il prononça cette phrase un matin de cinquième qu'il regardait par la fenêtre au lieu d'écouter la professeure de français (<a href="https://eliotpetitrenard.github.io/fr/sources/quote1.mp3">écouter l'audio original</a>).</cite>
+  <cite>Il prononça cette phrase un matin de cinquième qu'il regardait par la fenêtre au lieu d'écouter la professeure de français (<a href="#" onclick="playAudio('https://eliotpetitrenard.github.io/fr/sources/quote1.mp3')">écouter l'audio original</a>).</cite>
   <blockquote>"Ce n'est qu'une fois que la feuille tombe que l'arbre s'inquiète."</blockquote>
-  <cite>Il eut cette pensée en troisième après un cours de musique (<a href="https://eliotpetitrenard.github.io/fr/sources/quote2.mp3">écouter l'audio original</a>).</cite>
+  <cite>Il eut cette pensée en troisième après un cours de musique (<a href="#" onclick="playAudio('https://eliotpetitrenard.github.io/fr/sources/quote2.mp3')">écouter l'audio original</a>).</cite>
   <blockquote>"Appuyer sur les touches d'un clavier est une chose, en faire de la musique en est une autre."</blockquote>
-  <cite>Il eut ce sursaut révélateur au CDI du collège par une fraîche matinée de juin (<a href="https://eliotpetitrenard.github.io/fr/sources/quote3.mp3">écouter l'audio original</a>).</cite>
+  <cite>Il eut ce sursaut révélateur au CDI du collège par une fraîche matinée de juin (<a href="#" onclick="playAudio('https://eliotpetitrenard.github.io/fr/sources/quote3.mp3')">écouter l'audio original</a>).</cite>
   <blockquote>"Lorsque l'on peut avoir la volonté de pouvoir, alors on ne peut que faire ce que l'on peut."</blockquote>
-  <cite>Il eut cette révélation en mangeant des lentilles (<a href="https://eliotpetitrenard.github.io/fr/sources/quote4.mp3">écouter l'audio original</a>).</cite>
+  <cite>Il eut cette révélation en mangeant des lentilles (<a href="#" onclick="playAudio('https://eliotpetitrenard.github.io/fr/sources/quote4.mp3')">écouter l'audio original</a>).</cite>
   <blockquote>"En entendant le troisième mouvement de la Symphonie n°3 de Brahms, ce thème poignant, ces violons pleureurs, ces trilles sentimentaux, ces articulations bouleversantes et toutes ces couleurs chatoyantes, je me suis rendu compte que je n'avais plus de batterie."</blockquote>
-  <cite>Il se fit cette réflexion en pleine déprime vespérale (<a href="https://eliotpetitrenard.github.io/fr/sources/quote5.mp3">écouter l'audio original</a>).</cite>
+  <cite>Il se fit cette réflexion en pleine déprime vespérale (<a href="#" onclick="playAudio('https://eliotpetitrenard.github.io/fr/sources/quote5.mp3')">écouter l'audio original</a>).</cite>
 </main>
 <footer>
   <p><span style="font-family: Arial, sans-serif; font-size: 12px;">© 2023 Eliot Petitrenard. Tous droits réservés.</span></p>
 </footer>
+<script>
+  function playAudio(src) {
+    var audio = new Audio(src);
+    audio.play();
+    return false; // Empêche la navigation vers le lien
+  }
+</script>
 </body>
 </html>
